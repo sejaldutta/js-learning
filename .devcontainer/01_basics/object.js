@@ -41,18 +41,33 @@
 // const obj3={...obj1, ...obj2}
 // console.log(obj3)
 
-const Users=[
-    {
-        id:1234,
-        email:"s@gmail.com"
-    },
-    {
-        id:1234,
-        email:"d@gmail.com"
-    },
-    {
-        id:1234,
-        email:"g@gmail.com"
-    }
-]
-console.log(Users[2].email)
+// const Users=[
+//     {
+//         id:1234,
+//         email:"s@gmail.com"
+//     },
+//     {
+//         id:1234,
+//         email:"d@gmail.com"
+//     },
+//     {
+//         id:1234,
+//         email:"g@gmail.com"
+//     }
+// ]
+// console.log(Users[2].email)
+// console.log(Object.keys(tinderUser))
+// console.log(Object.entries(tinderUser))
+// console.log(tinderUser.hasOwnProperty('isloggedIn'))
+
+//***de-construct***/
+const course={
+    course_name:"js learning",
+    mode:"online",
+    fees:999,
+    courseInstructor:"Hitesh"
+}
+const {course_name} = course
+const{courseInstructor : coach} = course
+console.log(course_name)
+console.log(coach)
