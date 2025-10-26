@@ -34,7 +34,10 @@
 // }
 // chai()
 
-const addution = (num1, num2) =>{
-    return (num1 + num2);
-}
-console.log(addution(70, 80))
+// const addution = (num1, num2) =>{
+//     return (num1 + num2);
+// }
+// console.log(addution(70, 80))
+
+const add1=(num1,num2) =>{return(num1+num2)}
+console.log(add1(8,9))
