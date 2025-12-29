@@ -10,6 +10,7 @@
 // // console.log(details.age)
 // // console.log(details['age'])
 // // console.log(details[mysym])
+// console.log(details["last_login"][0])
 // // Object.freeze(details)
 // // details.age = 19
 // // console.log(details)
