@@ -68,7 +68,7 @@ const course={
     fees:999,
     courseInstructor:"Hitesh"
 }
-const {course_name} = course
+const {course_name : Name} = course
 const{courseInstructor : coach} = course
-console.log(course_name)
+console.log(Name)
 console.log(coach)
