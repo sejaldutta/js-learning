@@ -9,3 +9,9 @@ console.log(create.toLocaleString('default',{
     weekday : "long",
     hourCycle:'h12'
 }))
+console.log(create.toLocaleString('default', {
+  weekday: "long",
+  hour: "numeric",
+  minute: "numeric",
+  hourCycle: "h12"
+}))
