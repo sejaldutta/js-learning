@@ -1,4 +1,5 @@
 const Arr1 = [3,4,5,7,2,4,9]
+const ARR2=[1,2,4]
 // console.log(Arr1[1])
 // console.log(typeof Arr1)
 // Arr1.push(7)
